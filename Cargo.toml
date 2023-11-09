@@ -1,0 +1,19 @@
+[package]
+name = "object_duplicate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+aws-config = "0.56.1"
+aws-sdk-s3 = "0.30.0"
+libc = "0.2.148"
+md-5 = "0.10.6"
+tokio = { version = "1.26.1", features = ["full"] }
+rand = "0.8"
+crossbeam = "0.8.2"
+num_cpus = "1.16.0"
+walkdir = "2.4.0"
+url = "2.4.1"
